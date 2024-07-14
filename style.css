@@ -1,33 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+img{
+    width: 200px; 
+    height: 200px
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-*
-{
+body{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
 }
-body
-{
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-background-color:#545454;
+li,a,button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#fffbf7;
+    text-decoration: none;
 }
-.logo
-{
-    width: 60px;
-    height: 60px;
-    border-radius: 120px;
-    background-color:aqua;
-}
-
-
-
-header
-{
-    height: 10vh;
+header{
     display: flex;
     justify-content: space-between;
-    background-color: #545454;
+    align-items: center;
+    padding: 30px 10%;
 }
-ul
-{
-    display: flex;
+.logo{
+    cursor: pointer;
 }
+.cabeçalho{
+    list-style: none;
+}
+.cabeçalho li{
+    display: inline-block;
+    padding: opx 20px;
+}
+.cabeçalho li a {
+    transition: all0.3s ease 0s;
+   
+}
+.cabeçalho li a:hover {
+color: rgb(11, 11, 12);
+}
+button{
+    padding: 9px 25px;
+    background-color:#b0804a;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all0.3s ease 0s;
+}
+button:hover{
+    background-color: black;
+}
+
+
