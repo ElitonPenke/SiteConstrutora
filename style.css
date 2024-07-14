@@ -3,7 +3,8 @@ img
     width:200px ;
 }
 
-.titulomarca
+.tiulomarca
 {
     display: flex;
+    align-items: center;
 }
