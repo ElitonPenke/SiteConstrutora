@@ -1,10 +1,12 @@
 img
 {
     width:200px ;
+    float: left;
 }
 
-.tiulomarca
+.textomarca
 {
-    display: flex;
-    align-items: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+
