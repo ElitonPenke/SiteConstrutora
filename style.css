@@ -15,7 +15,7 @@ body{
     background-color: #ffffffa6;
     color: #030303;
 }
-li,a,button{
+button{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-size: 21px;
@@ -28,6 +28,7 @@ header{
     align-items: center;
     padding: 0px 1%;
     background-color: #ffffff;
+    margin: O;
 
 }
 .logo{
