@@ -59,9 +59,18 @@ main{
     padding: 70px;
 }
 .OBJETIVO{
-    display: flex;
+    
+        border: 3px solid black;
+        border-radius: 10px;
+        padding-left: 15px;
+    
 }
 .imagemcasa{
     width: 400x; 
     height: 300px
+}
+.SOBRENOS{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 15px;
 }
